@@ -18,3 +18,4 @@ jobs:
         with:
           registry: https://npm.pkg.github.com
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${ GITHUB_SHA }
